@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form1</title>
+    <style></style>
+  </head>
+  <body>
+    <fieldset style="padding: 20px; border: 2px solid black">
+      <legend><b>Your details</b></legend>
+      <div>
+        <form action="">
+          <label for="text">1. Name : </label>
+          <input type="text" placeholder="first and last name" /><br />
+          <label for="text">2. Email : </label>
+          <input type="text" placeholder="example@fomain.com" /><br />
+          <label for="text">3. Phone : </label>
+          <input type="text" placeholder="ex +62 82125215089" /><br />
+        </form>
+      </div>
+    </fieldset>
+    <fieldset style="padding: 20px; border: 2px solid black; margin-top: 15px">
+      <legend><b>Delevery addres</b></legend>
+      <div>
+        <form action="">
+          <label for="text" style="position: relative; bottom: 40px"
+            >1. Addres</label
+          >
+          <textarea sty name="" id="" cols="10" rows="3"></textarea><br />
+          <label for="text">2. Post code</label>
+          <input type="text" /><br />
+          <label for="text">3. Country</label>
+          <input type="text" />
+        </form>
+      </div>
+    </fieldset>
+    <fieldset style="padding: 20px; border: 2px solid black; margin-top: 15px">
+      <legend><b>Card details</b></legend>
+      <div>
+        <form action="">
+          <label for="text">1. </label>
+          <fieldset style="padding: 10px; border: 2px solid black">
+            <legend><b>Card type</b></legend>
+            <div>
+              <label for="visa">1. </label>
+              <input type="radio" id="visa" name="card" value="visa" />
+              <label for="visa">VISA</label><br />
+              <label for="visa">2. </label>
+              <input type="radio" id="amex" name="card" value="amex" />
+              <label for="amex">AmEx</label><br />
+              <label for="visa">3. </label>
+              <input
+                type="radio"
+                id="mastercard"
+                name="card"
+                value="mastercard"
+              />
+              <label for="mastercard">Mastercard</label>
+            </div>
+          </fieldset>
+          <label for="text">2. Card number</label>
+          <input type="text" /><br />
+          <label for="text">3. Security code</label>
+          <input type="text" /><br />
+          <label for="text">4. Namae on card</label>
+          <input type="text" placeholder="exact name as on the card" />
+        </form>
+      </div>
+    </fieldset>
+    <div style="padding: 10px; border: 2px solid black">
+      <button style="border-radius: 50px; padding: 7px; width: 15%">
+        <b>Buy It!</b>
+      </button>
+    </div>
+  </body>
+</html>
