@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/81c3fa1df4.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form3</title>
+  </head>
+  <body>
+    <div class="container max-w-lg mx-auto mt-3 border-2 shadow-lg">
+      <!-- Language -->
+      <div
+        class="font-semibold bg-gray-300 p-3 border-gray-400 border-4 flex justify-between"
+      >
+        <div>
+          <i class="fa-solid fa-earth-americas"></i
+          ><span class="ml-2">Language</span>
+        </div>
+        <div class="">
+          <span><i class="fa-regular fa-pen-to-square fa-2xl"></i></span>
+        </div>
+      </div>
+      <!-- Select Type -->
+      <div class="w-full p-3">
+        <div class="p-2 bg-gray-200">
+          <label for="" class="font-semibold">Select Type</label><br />
+          <select name="" id="" class="w-44">
+            <option value="">Radio</option>
+            <option value="">Mp4</option>
+            <option value="">Mp3</option>
+            <option value="">Png</option>
+          </select>
+        </div>
+      </div>
+      <!-- Label -->
+      <div class="w-full p-3 -mt-3">
+        <div class="p-2 bg-gray-200">
+          <label for="" class="font-semibold">Label</label><br />
+          <input type="text" class="w-44" />
+        </div>
+      </div>
+      <!-- Option -->
+      <div class="w-full p-3 -mt-3">
+        <div class="p-2 bg-gray-200">
+          <label for="" class="font-semibold">Option</label><br />
+          <div>
+            <label for="">Label</label>
+            <label for="" class="ml-36">Value</label>
+            <input type="checkbox" name="" id="" class="ml-36" />
+          </div>
+          <div>
+            <input type="text" class="w-44 mr-1" />
+            <input type="text" class="w-44" />
+            <input type="checkbox" name="" id="" class="w-4 h-4 ml-1.5 mr-11" />
+            <span class="text-blue-600 cursor-pointer">
+              <i class="fa-solid fa-trash-can"></i>
+            </span>
+          </div>
+          <div>
+            <label for="">Label</label>
+            <label for="" class="ml-36">Value</label>
+            <input type="checkbox" name="" id="" class="ml-36" />
+          </div>
+          <div>
+            <input type="text" class="w-44 mr-1" />
+            <input type="text" class="w-44" />
+            <input type="checkbox" name="" id="" class="w-4 h-4 ml-1.5 mr-11" />
+            <span class="text-blue-600 cursor-pointer">
+              <i class="fa-solid fa-trash-can"></i>
+            </span>
+            <div>
+              <button
+                class="bg-green-500 mt-2 font-bold p-1 text-white rounded-sm hover:bg-sky-600"
+              >
+                <i class="fa-solid fa-plus"></i
+                ><span class="ml-1">Add Option</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- blank -->
+      <div class="w-full p-3 -mt-3">
+        <div class="h-2 bg-gray-200"></div>
+      </div>
+      <!-- Error Message -->
+      <div class="w-full p-3 -mt-3">
+        <div class="p-2 bg-gray-200">
+          <label for="" class="font-semibold">Error Message</label><br />
+          <input
+            type="text"
+            class="w-full"
+            placeholder="This field is required"
+          />
+        </div>
+      </div>
+      <!-- Text Area -->
+      <div class="w-full p-3 -mt-3">
+        <div class="p-2 bg-gray-200">
+          <label for="" class="font-semibold">HTML after field</label><br />
+          <textarea
+            name=""
+            id=""
+            cols="60"
+            rows="5"
+            class="resize-none"
+          ></textarea>
+        </div>
+      </div>
+      <div class="flex justify-between mx-4 mb-3">
+        <button
+          class="bg-blue-500 p-2 text-white font-semibold rounded-md hover:bg-green-400"
+        >
+          Save Changes
+        </button>
+        <button class="text-sky-500">
+          <i class="fa-solid fa-trash-can"></i
+          ><span class="ml-1 font-semibold">Delete</span>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
